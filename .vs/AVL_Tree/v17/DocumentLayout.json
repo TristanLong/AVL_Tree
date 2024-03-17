@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\University_STU\\Nam2\\HK2\\CTDL_GT2\\AVL_Tree\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75AE4CE9-17BA-49B2-A688-EBDCB3CA6933}|AVL_Tree\\AVL_Tree.vcxproj|D:\\University_STU\\Nam2\\HK2\\CTDL_GT2\\AVL_Tree\\AVL_Tree\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{75AE4CE9-17BA-49B2-A688-EBDCB3CA6933}|AVL_Tree\\AVL_Tree.vcxproj|solutionrelative:AVL_Tree\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 39,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "D:\\University_STU\\Nam2\\HK2\\CTDL_GT2\\AVL_Tree\\AVL_Tree\\Source.cpp",
+              "RelativeDocumentMoniker": "AVL_Tree\\Source.cpp",
+              "ToolTip": "D:\\University_STU\\Nam2\\HK2\\CTDL_GT2\\AVL_Tree\\AVL_Tree\\Source.cpp",
+              "RelativeToolTip": "AVL_Tree\\Source.cpp",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswMYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-17T02:05:38.865Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
