@@ -105,7 +105,7 @@ void balanceLeft(nodeAVL*& root) {
 	if (root == NULL) return;
 	if (height(root->right) - height(root->left) == 2) {
 		nodeAVL* pointer = root->right;
-		if (height(pointer->right) >= height(root->left))
+		if (height(pointer->right) >= height(pointer->left))
 			rotateLeft(root);
 		else
 			rotateRightLeft(root);
@@ -150,11 +150,11 @@ void deleteNode(nodeAVL*& root, int key) {
 			delete temp;
 		}
 		else {
-			nodeAVL* minRightNode = root->left;
-			while (minRightNode->right != NULL)
-				minRightNode = minRightNode->right;
-			root->data = minRightNode->data;
-			deleteNode(root->left, minRightNode->data);
+			nodeAVL* maxRightOfLeftSubTree = root->left;
+			while (maxRightOfLeftSubTree->right != NULL)
+				maxRightOfLeftSubTree = maxRightOfLeftSubTree->right;
+			root->data = maxRightOfLeftSubTree->data;
+			deleteNode(root->left, maxRightOfLeftSubTree->data);
 			balanceLeft(root);
 		}
 	}
