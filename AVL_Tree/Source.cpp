@@ -122,7 +122,7 @@ void insert(nodeAVL*& root, int value) {
 			insert(root->left, value);
 			balanceRight(root);
 		}
-		else {
+		else if (value > root->data) {
 			insert(root->right, value);
 			balanceLeft(root);
 		}
@@ -171,6 +171,8 @@ void deleteNode(nodeAVL*& root, int key) {
 	// Kiểm tra khác NULL là do có TH nút xóa là nút lá khi xóa nó là NULL khi cập nhật sẽ lỗi 
 	if (root != NULL)
 		root->height = 1 + max(height(root->left), height(root->right));
+		//root->height = 1 + ((height(root->left) > height(root->right)) ? height(root->left) : height(root->right));
+
 }
 
 void NLR(nodeAVL* root) {
